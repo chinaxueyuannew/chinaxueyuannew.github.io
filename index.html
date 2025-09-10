@@ -1,1 +1,29 @@
-<p>text</p>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>嵌入目标网页（含图片）</title>
+    <style>
+        /* 控制iframe大小，避免显示异常 */
+        .target-iframe {
+            width: 100%; /* 宽度占满容器 */
+            height: 600px; /* 高度根据网页内容调整（可按需修改） */
+            border: none; /* 取消iframe默认边框 */
+            margin: 20px auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- 核心：iframe标签嵌入网页 -->
+    <iframe src="https://z.wiki/u/mBIXRD"  <!-- 原始网页链接 -->
+        class="target-iframe"
+        title="包含目标图片的网页"  <!-- 提升可访问性 -->
+    ></iframe>
+
+    <p style="text-align: center; color: #666;">
+        网页内包含群聊二维码，7天内（9月17日前）有效
+    </p>
+</body>
+</html>
